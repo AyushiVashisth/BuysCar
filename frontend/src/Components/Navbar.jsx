@@ -28,8 +28,8 @@ const Navbar = () => {
       toast.success("Logout successfu", {
         position: "top-center"
       });
-      navigate("/signin");
     }, 100);
+    navigate("/signin");
   };
 
   return (

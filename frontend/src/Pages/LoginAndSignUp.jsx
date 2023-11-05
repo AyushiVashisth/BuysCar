@@ -62,8 +62,9 @@ function LoginAndSignUp() {
           toast.success("Login successful", {
             position: "top-center"
           });
-          navigate("/deals");
+
         }, 100);
+        navigate("/deals"); // Redirect to /deals after login
       }
     } else {
       // Handle Sign Up
@@ -92,7 +93,8 @@ function LoginAndSignUp() {
         return toast.error("Please recheck your password", { position: "top" });
       }
     }
-  };
+  }
+  
 
   const handleToggleSignIn = () => {
     setIsSignIn(!isSignIn);
