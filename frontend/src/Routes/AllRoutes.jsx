@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import LoginAndSignUp from "./../Pages/LoginAndSignUp";
-// import Deals from "./../Pages/Deal";
-// import PrivateRoute from "./PrivateRoute";
-// import Inventory from "./../Pages/InventoryPage";
+import Deals from "./../Pages/Deal";
+import PrivateRoute from "./PrivateRoute";
+import Inventory from "./../Pages/InventoryPage";
 
 const AllRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<LoginAndSignUp />}></Route>
       <Route path="/signin" element={<LoginAndSignUp />}></Route>
-      {/* <Route
+      <Route
         path="/deals"
         element={
           <PrivateRoute>
@@ -26,7 +26,7 @@ const AllRoutes = () => {
             <Inventory />
           </PrivateRoute>
         }
-      ></Route> */}
+      ></Route>
       <Route path="*" element={<h1>Page not found</h1>}></Route>
     </Routes>
   );
