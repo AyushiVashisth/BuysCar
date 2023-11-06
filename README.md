@@ -86,16 +86,6 @@ Create a web app using Node.js and MongoDB with a homepage featuring a "Sign In"
    - Choose a suitable database for data storage.
 
 
-## Home
-![Screenshot 2023-10-28 140106](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/28604474-2ab4-42ae-b534-fe852b81613d)
-
-## Login
-![Screenshot 2023-10-28 140132](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/125ffb41-94db-4ca4-a146-053c604d64ba)
-![Screenshot 2023-10-28 140147](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/39e418e7-b4f5-4bcb-a65c-faaaf5cfc550)
-
-## Course
-![Screenshot 2023-10-28 143009](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/6f80b53a-8185-48a5-8c2e-681a2d519deb)
-
 <h2 align="center">Key Features</h2>
 
 1. **User Authentication:**
